@@ -1,0 +1,58 @@
+﻿,Crime Head,2016,2017,2018
+1,Murder,69320,62159,65739
+2,Attempt to Commit Murder,86153,93937,90045
+3,Culpable Homicide not Amounting to Murder,7135,6486,6810
+4,Attempt to Commit Culpable Homicide,7226,9895,8560
+5,Rape,48193,42036,45114
+6,Custodial Rape $,286,134,210
+7,Rape other than Custodial,47907,41902,44904
+8,Gang Rape,4972,4707,4839
+9,Other Rape,42935,37195,40065
+10,Attempt to Commit Rape,4465,4338,4401
+11,Kidnapping & Abduction,82487,73557,78022
+12,Kidnaping & Abduction in Order to Murder,2298,1910,2104
+13,Kidnapping for Ransom,1531,1667,1599
+14,Kidnapping & Abduction of Women to Compel her for Marriage,42728,38487,40607
+15,Other Kidnapping,18140,14571,16355
+16,Robbery,51312,46899,49105
+17,Criminal Trespass/Burglary,90503,79379,84941
+18,Criminal Trespass/Burglary,64960,59427,621934
+19,House Trespass & House Breaking,25543,19952,22747
+20,Theft,259441,222556,240998
+21,Auto Theft,79680,71730,75705
+22,Other Thefts,179761,150826,165293
+23,Unlawful Assembly,46683,69475,58079
+24,Riots,308544,294289,301416
+25,Communal Riots,5705,5370,5537
+26,Industrial Riots,688,1322,1005
+27,Political Riots,10318,11635,10976
+28,Caste Conflict Riots,7969,12568,10286
+29,SC/STs Vs. Non-Scs/Sts Riots,1993,7047,4520
+30,Other Caste Riots,5976,5521,5748
+31,Agrarian Riots,3540,10353,6946
+32,Students Riots,1474,3600,2537
+33,Sectarian Riots,71,6642,4013
+34,Other Riots,278779,242799,260789
+35,Criminal Breach of Trust,27360,24524,25942
+36,Cheating,120788,112916,116852
+37,Forgery,9196,14138,11667
+38,Counterfeiting,2558,2089,2323
+39,Arson,14516,10661,12588
+40,Acid attack,241,305,273
+41,Dowry Deaths,23587,19973,21780
+42,Assault on Women with Intent to Outrage her Modesty,104243,101571,102907
+43,Sexual Harassment,27964,31098,29531
+44,Assault on Women with Intent to Disrobe,8255,10163,9209
+45,Stalking,5439,6694,6066
+46,Others,61600,52637,57118
+47,Insult to the Modesty of Women*,11017,9870,10443
+48,Cruelty by Husband or his Relatives,225648,187067,206357
+49,Causing Death by Negligence,122011,116759,119385
+50,Deaths due to Negligent Driving/Act,114118,111136,112627
+51,Deaths due to Other Causes,7893,5623,6758
+52,Offences against State,448,476,462
+53,Extortion,9772,13472,11622
+54,Causing Injuries under Rash Driving Act,394004,426435,410219
+55,Human Trafficking (Section 370 & 370A),1335,1746,1540
+56,Other IPC crimes,1441142,1409781,1425267
+57,Total Cognizable IPC crimes,3790812,3636596,3713704

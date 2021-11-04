@@ -1,0 +1,119 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Crime Rate Prediction System</title>
+  </head>
+  <body>
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand mb-0 h1" href="#">Crime Rate Prediction</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+         <li class="nav-item">
+            <a class="nav-link" href="dataset.html">Data Set</a>
+         </li>
+
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="detection.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Crime Rate
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="detection.html">Prediction</a>
+            </div>
+          </li>
+
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+      </div>
+
+    </nav>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'images\b1.jpg' %}" class="d-block w-100" alt="..." height="580px">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images\b2.jpg' %}" class="d-block w-100" alt="..." height="580px">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images\b4.jpg' %}" class="d-block w-100" alt="..." height="580px">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    
+    <div class="container">
+    </br></br>
+      <h1> CRIME RATE </h1>
+    </br></br></br>
+      <p>
+        Day by day the crime rate is increasing considerably. Crime cannot be predicted since it is neither systematic nor random. Also, the modern technologies and hi-tech methods help criminals in achieving their misdeeds. According to Crime Records Bureau crimes like burglary, arson etc. have been decreased while crimes like murder, sex abuse, gang rape etc. have been increased.
+      </p>
+    </br></br>
+      <p>
+        Crime is manifestation of myriad complex factors. The genesis of crime can be traced to interplay of various social, economic, demographic, local and institutional factors. They together influence education, employment, parenting / family relationships, societal cohesiveness, emotional stability, mental health, anonymity, criminal orientation, residential stability, leisure etc. which in turn influence the nature, pattern, frequency and volume of crime. These and other latent and concomitant factors vary significantly across different regions, states and societies. The data provided in the edition is not adequate to unravel these criminogenic factors and hence comparison among States/districts/regions/social groups etc. on the basis of these published data without going into the underlying dimensions of crime is too simplistic a way of looking at crime and may not give much insight and hence is best avoided.
+      </p>
+    </br></br>
+      <p>
+        According to the released data of NCRB, 2018, crimes such as burglary, arson has significantly decreased in previous years but crimes such murder, rape, kidnapping are on significant rise.
+      </p>
+    </br></br>
+      <p>
+        It has always been hard to predict when, where or who will conduct crime. But some of the modern technologies like facial recognition, sensors, data science can help us in reducing criminal cases or crime rate. In order to keep in check which one these methods will help us to reduce crime rate of the present year and for the upcoming future years, we need to implement these technologies and keep on detecting crime rate of current month or year. And with which technology we will get significant result in future.
+      </p>
+    </br></br>
+      <p>
+        In this website, we are going to use NCRB official data of 2016, 2017, and 2018. And we are going to use this data to detect the crime rate of the following year, further by using machine learning algorithm we are going to predict the crime rate of year 2019, 2020, 2021,……
+      </p>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
